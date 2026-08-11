@@ -6,50 +6,7 @@ a{color:inherit;text-decoration:none}
         z-index:10;display:flex;align-items:center;
         justify-content:space-between;padding:18px 6%;background:rgba(4,15,26,.92);
         backdrop-filter:blur(14px);border-bottom:1px solid #123247}
-.search-box {
-    position: relative;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    max-width: 600px;
-    height: 55px;
-    background: #0b1b2c;
-    border: 1px solid #5cbeda;
-    border-radius: 14px;
-    padding-left: 18px;
-}
 
-.search-icon {
-    color: #58dff4;
-    font-size: 22px;
-}
-
-.search-box input {
-    flex: 1;
-    height: 100%;
-    border: none;
-    outline: none;
-    background: transparent;
-    color: white;
-    padding: 0 15px;
-    font-size: 16px;
-}
-
-.search-box input::placeholder {
-    color: #8296a5;
-}
-
-.search-logo {
-    width: 42px;
-    height: 42px;
-    margin-right: 7px;
-    display: grid;
-    place-items: center;
-    border-radius: 10px;
-    background: #4bd9ef;
-    color: #03111b;
-    font-weight: 800;
-}
 .logo{display:grid;place-items:center;width:46px;height:46px;border:1px solid #4bd9ef;border-radius:10px;
       color:#53e0f4;font-weight:800;font-family:'Space Mono',monospace}
 .navbar nav{display:flex;gap:22px}.navbar nav a{font-size:14px;color:#b9cbd7}
